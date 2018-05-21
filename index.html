@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bad Girl Glow</title>
+  <link rel="stylesheet" href="main.css" type="text/css">
+  </head>
+  <body>
+      <header>
+          <div id = "logo"><a href = "index.html"><img src = "200x200logo.png" width="75px"></a></div>
+          <div id = "banner"><a href = "#"><img src = "banner.png"></a></div>         
+      </header>
+      
+      <h3  id = "ready"> ✨ Ready to be bad? ✨ </h3>
+      
+      <div id = "products">
+         
+          <ul id = "rowOne">
+      <li  id = "princess"><img src = "PRINCESS-3.jpg" width="250px">
+              <p> Princess Gloss - $9.00</p>
+              <button onclick = "addToCart(0)"> Add To Cart </button></li>
+      
+      <li  id = "sugarBaby"><img src = "SB-3.jpg" width="250px">
+              <p> Sugar Baby Gloss - $9.00 </p>
+              <button onclick = "addToCart(1)"> Add To Cart </button>
+              </li>
+           
+       <li  id = "lashes"><img src = "LASHES.jpg" width="250px">
+           <p> Mink Lashes - $6.00 </p>
+              <button onclick = "addToCart(2)"> Add To Cart </button>   
+              </li>  
+          </ul>     
+      
+      <ul id = "rowTwo">
+      <li  id = "brushes"><img src = "BRUSHES-1.JPG" width="250px">
+          <p> Gold Digger Brush Set - $15.00 </p>
+              <button onclick = "addToCart(3)"> Add To Cart </button>
+          </li>
+    <li  id = "powderHL"><img src = "highlighters.JPG" width="250px">
+          <p> Power Highlighter - $9.00 </p>
+              <button onclick = "addToCart(4)"> Add To Cart </button>
+          </li>
+          <li  id = "liquidHL"><img src = "HIGHLighters.png" width="250px">
+          <p> Glow Body Oil - $9.00 </p>
+              <button onclick = "addToCart(5)"> Add To Cart </button>
+          </li>
+      
+      </ul>
+      
+      </div>
+      <div id = viewCart>
+         
+      <div id = "cart"><h3> Your Cart: </h3>
+          <ul id = "cartText">               
+              <p id = "temp">Your cart is currently empty :( </p>          
+              </ul>
+          
+          <button id = "checkout" > Checkout </button>         
+          </div>
+      </div>            
+    
+     <div id ="modal">
+              <div id = "modalText">
+                  <span id = "close">&times</span>
+                  <h3>Reciept: </h3>
+                  <div id = "recList">
+                  
+                  </div>
+              </div>
+          </div>
+      
+      <footer>
+          <p>Bad Girl Glow &copy 2018. <a href= "www.badgirlglow.com"> www.badgirlglow.com </a> </p>
+      </footer>
+  
+      <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

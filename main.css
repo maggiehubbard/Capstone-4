@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+header, img{   
+    text-align: center;    
+}
+#logo{
+    padding-bottom: 20px;
+}
+#ready{
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+#rowOne li{
+    display: inline-block; 
+}
+#rowTwo li{
+    display: inline-block;    
+}
+#products{
+    text-align: center;
+}
+#products img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#products p{
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+}
+#products button{
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 15px;
+    
+}
+#products button:hover{
+    background-color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+#viewCart{
+    font-family: century gothic;
+    background-color: pink;
+    text-align: center;  
+    padding-top: 5px;
+    
+}
+#cartText {
+    list-style: none;    
+    font-family: century gothic;
+    line-height: 25px;
+    padding-bottom: 10px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: pink; 'background-color: pink;'
+    
+}
+#modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);    
+}
+#modalText{
+    background-color: white;
+    margin: 30% auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 1px 1px black;
+}
+#close{
+    float: right;
+    color: grey;
+    font-size: 30px;
+    }
+#close:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+footer{
+    text-align: center;
+    font-family: 'century gothic';
+    margin-bottom: 5px;
+    margin-top: 45px;
+    font-size: 15px;
+}
+
